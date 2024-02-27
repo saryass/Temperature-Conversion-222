@@ -1,0 +1,49 @@
+.hero {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    background-color: rgb(225, 227, 230);
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 8px 5px 10px rgba(255, 0, 0, 0.589);
+    padding: 20px;
+}
+
+.inputBTNN {
+    height: 40px;
+    text-align: center;
+}
+
+.input-container {
+    width: 500px;
+}
+
+.label-container {
+    width: 50%;
+    display: flex;
+    gap: 135px;
+}
+
+#submitBTN {
+padding: 10px 15px;
+background-color: rgb(235, 112, 112);
+color: black;
+font-weight: bold;
+cursor: pointer;
+transition: 0.5ms;
+display: block;
+margin-top: 20px;
+
+}
+
+#submitBTN:hover {
+    background-color: rgba(235, 112, 112, 0.80);
+}
+
+h1 {
+    color: rgb(44, 47, 236);
+    font-size: 1.5em;
+}
+
+.fa-solid  {
+    color: red;
+}
